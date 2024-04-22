@@ -1,0 +1,18 @@
+.app-bg .left-side {
+    background-color: rgb(15, 17, 19);
+    width: 75%;
+    height: 100%;
+  }
+  .app-bg .right-side {
+    background-color: rgba(111, 111, 129, 0.671);
+     width: 25%;
+    height: 100%;
+  }
+
+  .model .model-img {
+    height: 85vh;
+    position: absolute;
+    left: 33%;
+    transform: translate(-50%);
+    top: -100px;
+  }

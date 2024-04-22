@@ -1,0 +1,36 @@
+.app-bg .left-side {
+    background-color: rgba(110, 94, 104, 0.658);
+    width: 75%;
+    height: 100%;
+  }
+  .app-bg .right-side {
+    background-color: rgb(231, 8, 112);
+     width: 25%;
+    height: 100%;
+  }
+
+  .model .model-img {
+    height: 90vh;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%);
+    top: -100px;
+  }
+
+  main .products-preview {
+    width: 58%;
+    height: calc(70vh - 110px);
+    position: absolute;
+    left: 0;
+  }
+
+  .cart-footer {
+    width: 100%;
+    background-color: rgb(243, 186, 30);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    border-left: 1px solid rgb(var());
+  }
+  
