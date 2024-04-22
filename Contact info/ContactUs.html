@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homescreen</title>
+  
+  <!-- CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+  <link href="../navbar.css" rel="stylesheet">
+  <link href="ContactUs.css" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="../navbar.js"></script>
+</head>
+<body>
+
+<div id="logobar">
+  <img src="../Logo/Star_logo_Cropped.gif" id="logo-gif">
+  <img src="../Logo/Star_logo_static.jpg" id="logo-static">
+  <div id="icons">
+    <a  href="http://instagram.com" target="_blank" ><img src="../Images/Icons/instagram (1).png"></a>
+    <a  href="https://twitter.com/" target="_blank"><img src="../Images/Icons/twitter.png"></a>
+    <a  href="../Shopping cart/index.html"><img src="../Images/Icons/shopping-cart.png"></a>
+  </div>
+</div>
+<a href="../index.html">
+<h1 id="star_archive">Star archive</h1>  
+<style> a{ text-decoration:none;}</style>
+</a>
+<div id="nav">
+  <a href="../Info pages/Jedi Page.html">
+    <button onmouseover="showImage1()" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="council">Council</button>
+  </a>
+
+  <a href="../Galactic Empire Page.html">
+    <button onmouseover="showImage2()" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="government">Government</button>
+  </a>
+
+  <a href="../jedi Page.html">
+    <button onmouseover="showImage3()" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="religion">Religion</button>    
+  </a>
+</div>
+
+<div class="container">
+  <div class="form-group">
+    <label for="email">Name:</label>
+    <input type="email" id="name" name="name" required>
+  </div>
+  
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="name" id="email" name="email" required>
+    </div><input type="hidden" name="access_key" value="d97670ed-ae5d-47f1-9da1-45dbad3c1f26">
+    
+
+    <div class="form-group">
+      <label for="query">Query:</label>
+      <textarea id="query" name="query" rows="5" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
