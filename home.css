@@ -1,0 +1,203 @@
+#emblems{
+  background-color:grey;
+  height:100px;
+}
+
+#hyperspace{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+
+body{
+  background-color:black;
+}
+
+
+
+#cards {
+/*padding:10% 0%;*/
+padding-bottom:10px;
+margin-bottom: 0px;
+
+}
+
+
+
+/*Card images*/
+
+
+#Mando {
+  display: inline-flex;
+  transform: translateX(-50%);
+  opacity: 0;
+
+  overflow: hidden;
+}
+
+#Bo {
+  display: inline-flex;
+  transform: translateX(100px);
+  opacity: 0;
+  height: auto;
+  width:50%;
+
+}
+
+#ATNT {
+  display: inline-flex;
+  transform: translateX(-50%);
+  opacity: 0;
+  width: auto;
+  height: 150%;
+  object-fit: inherit;
+}
+
+#palp {
+  display: inline-flex;
+  transform: translateX(-10%);
+  opacity: 0;
+  width: auto;
+  height: 130%;
+  object-fit: inherit;
+}
+
+#council_card:hover #battle {
+  transform: translateY(60%);
+  opacity: 1;
+  z-index: 2;
+  height: 10%;
+  transition: transform 0.2s ease, opacity 0.2s ease, height 0.2s ease 0.1s; /* Combined transition for transform, opacity, and height */
+  transition-delay: 0.1s;
+  z-index: -2;
+}
+
+
+
+
+
+
+
+
+
+
+/*Hover Images*/
+
+
+#religion_card:hover #Mando {
+  transform: translateX(-100%);
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.2s ease; 
+  transition-delay: 0.1s; 
+  width: 30%;
+  height: 120%;
+}
+#religion_card:hover #Bo {
+  transform: translateX(180%);
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.2s ease; 
+  transition-delay: 0.1s; 
+}
+
+#government_card:hover #ATNT {
+  transform: translateX(70%);
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.2s ease; 
+  transition-delay: 0.1s; 
+  z-index: 2;
+}
+
+#government_card:hover #palp {
+  transform: translateX(-100%);
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.2s ease; 
+  transition:opacity(0.5s);
+  transition-delay: 0.1s; 
+  z-index: 2;
+}
+
+
+
+
+
+
+  
+
+
+#council_card, #government_card, #religion_card{
+
+  display:inline-flex;
+  justify-content: space-between;
+  position: relative;
+  padding:20px;
+  margin-bottom:80px;
+  width:100%;
+  height:400px;
+}
+
+
+
+#nebula_card{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+#cards a{
+ 
+padding: 0;
+}
+
+#council_card a  , #government_card a, #religion_card a{
+  text-decoration: none;
+  height: 1px
+}
+
+
+
+#cards h2, #cards p {
+  z-index: 1;
+}
+
+
+
+    #council_card h2, #government_card h2, #religion_card h2{
+    position:absolute;
+    left: 16px;
+    margin:16px;
+    color:white;
+    font-family: 'Star Wars', sans-serif;
+    font-size: 24pt;
+    padding-left:10%; padding-right:10%;
+
+    top: 100px; 
+    
+  }
+
+  #council_card p, #government_card p, #religion_card p{
+    position:absolute;
+    left: 16px;
+    margin:16px;
+    color:white;
+    margin-top:100px;
+    padding-left:10%; padding-right:10%;
+    font-size: 18pt;
+    font-family: 'Star Wars', sans-serif;
+    top: 100px; 
+  }
+
+
+
+
+
+#in_a_galaxy {
+  color:yellow;
+  font-family: 'Star Wars', sans-serif;
+  display:flex; align-items:center;   justify-content: center;
+  text-align: center;
+  padding:100px;
+}
